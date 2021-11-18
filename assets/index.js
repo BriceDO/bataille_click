@@ -32,7 +32,7 @@ function remiseZero(event){
     event.stopPropagation();
 }
 
-// au click du btn parent, on passe la fonction parentClick
+// au click dans la div parent, on passe la fonction parentClick
 elementParent.addEventListener('click', parentClick);
 
 // au click du btn enfant, on passe la fonction enfantClick
